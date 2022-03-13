@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "test": "vite-jest",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "serve": "vite preview",
     "deploy": "gh-pages -d build"
   },
